@@ -11,11 +11,8 @@ public class E05TwoDimArray02 {
 		for(int i=0 ; i<3 ; i++) {
 			for(int j=0 ; j<4 ; j++) {
 				arr2Dim[i][j] = i+j;
-		
 			}
-	
 		}
-		
 		
 		// 초기화된 데이터를 출력
 		for(int n=0 ; n<arr2Dim.length ; n++) {
