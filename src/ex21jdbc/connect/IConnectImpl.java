@@ -1,5 +1,6 @@
 package ex21jdbc.connect;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -12,6 +13,8 @@ public class IConnectImpl implements IConnect {
 
 	//동적쿼리 처리를 위한 객체
 	public PreparedStatement psmt;
+	//오라클의 함수/프로시저를 실행하기 위한 객체
+	public CallableStatement csmt;
 	public Connection con;
 	public ResultSet rs;
 	
