@@ -70,7 +70,7 @@ public abstract class ConnectDB {
 	}// end of close
 	
 	// 오버라이딩의 목적으로 생성한 추상메소드
-	abstract void execute();
+	public abstract void execute();
 
 		
 }

@@ -42,6 +42,7 @@ public class IsMemberProcCall extends IConnectImpl{
 	}
 	
 	public static void main(String[] args) {
+		
 		IsMemberProcCall mapc = new IsMemberProcCall();
 		mapc.execute();
 	}

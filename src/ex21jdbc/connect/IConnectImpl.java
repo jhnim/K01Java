@@ -17,6 +17,7 @@ public class IConnectImpl implements IConnect {
 	public CallableStatement csmt;
 	public Connection con;
 	public ResultSet rs;
+	protected Statement stmt;
 	
 	//기본생성자
 	public IConnectImpl() {
